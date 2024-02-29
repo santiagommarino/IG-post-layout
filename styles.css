@@ -1,0 +1,58 @@
+body{
+    background-color:  black;
+    margin-top: 50px;
+    font-family: 'roboto', sans-serif ;
+}
+
+.container{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.container-header{
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    display: inline-flex;
+
+}
+
+.html{
+   font-size: 15px;
+   bottom: 25px;
+   left: 10px;
+   display: flex;
+}
+.right{
+    position: absolute;
+    right: 450px;
+    top: 70px;
+    
+}
+.fa-2xl {
+    font-size: 2em;
+    line-height: .03125em;
+    vertical-align: -.1875em;
+    padding-top: 35px;
+    padding-right: 7px;
+}
+.pic{
+    height: 400px;
+    width: 600px;
+}
+
+.bookmark{
+    position: absolute;
+    right: 450px;
+    top: 540px;
+}
+.icon{
+    padding-left: 10px;
+}
+
+.liked{
+    padding-left: 9px;
+    font-size: 18px;
+}
